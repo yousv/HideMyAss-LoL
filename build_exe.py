@@ -12,5 +12,5 @@ PyInstaller.__main__.run([
     '--manifest', 'admin_manifest.xml',
     '--name', 'LoLStatusManager',
     '--icon', icon_path,
-    '--add-data', f'{icon_path};.'  # This adds the icon file to the executable
+    '--add-data', f'{icon_path};.'
 ])
